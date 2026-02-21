@@ -1,0 +1,1 @@
+# browser-url-extract-and-open-extension
