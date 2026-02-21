@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Extract and Manage URLs",
+  "version": "1.0",
+  "description": "Extract URLs from selected text and manage them in a popup.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
